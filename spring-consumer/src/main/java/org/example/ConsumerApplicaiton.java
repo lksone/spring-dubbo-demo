@@ -25,7 +25,7 @@ public class ConsumerApplicaiton {
         RestApiService.applicationContext = context;
         Server server = new Server(port);
         ServletHolder servlet = new ServletHolder(ServletContainer.class);
-        servlet.setInitParameter("com.sun.jersey.config.property.packages", "org.apache.dubbo.admin.impl.consumer");
+        servlet.setInitParameter("com.sun.jersey.config.property.packages", "org.example.serviceImpl");
         servlet.setInitParameter("com.sun.jersey.api.json.POJOMappingFeature", "true");
         ServletContextHandler handler = new ServletContextHandler(ServletContextHandler.SESSIONS);
         handler.setContextPath("/");
