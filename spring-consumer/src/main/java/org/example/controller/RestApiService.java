@@ -1,7 +1,5 @@
 package org.example.controller;
 
-import org.apache.dubbo.config.annotation.DubboReference;
-import org.example.api.service.GoodService;
 import org.example.serviceImpl.AnnotatedGreetingService;
 import org.example.utils.Result;
 import org.springframework.context.ApplicationContext;

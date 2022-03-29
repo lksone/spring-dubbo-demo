@@ -1,16 +1,18 @@
 package org.example.utils;
 
-import org.example.controller.RestApiService;
+import lombok.Data;
 
 /**
  * @author likesheng
  * @version 1.0
- * @Description TODO
+ * @Description 返回的数据信息
  * @date 2022/3/28 18:07
  */
+@Data
 public class Result {
 
     private Object data;
+
     private int code;
 
     public static Result success(Object object) {
