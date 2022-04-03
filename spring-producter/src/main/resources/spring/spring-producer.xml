@@ -15,5 +15,5 @@
 
     <dubbo:service interface="org.example.api.service.GoodService" ref="goodService" group="A" version="1.0.0" />
 
-    <bean id="goodService" class="org.example.impl.GoodServiceImpl"/>
+    <bean id="goodService" class="org.example.service.impl.GoodServiceImpl"/>
 </beans>

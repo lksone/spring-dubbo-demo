@@ -1,4 +1,4 @@
-package org.example.serviceImpl;
+package org.example.service.impl;
 
 import org.example.api.dto.GoodDto;
 import org.example.api.service.GoodService;
