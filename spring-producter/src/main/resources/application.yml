@@ -1,2 +1,11 @@
 server:
   port: 8888
+dubbo:
+  application:
+    name: lks-producter
+    port: 20881
+  registries:
+    address: zookeeper://124.221.218.66:2181
+  scan:
+    base-packages:
+      - org.example.service.impl.GoodServiceImpl

@@ -1,8 +1,8 @@
 package org.example.serviceImpl;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import org.example.api.dto.GoodDto;
 import org.example.api.service.GoodService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 public class AnnotatedGreetingService {
 
 
-    @Autowired
+    @Reference
     private GoodService greetingService;
 
     public GoodDto sayHello(String name) {

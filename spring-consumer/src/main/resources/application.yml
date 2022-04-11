@@ -1,2 +1,9 @@
 server:
   port: 7777
+dubbo:
+  application:
+    name: lks-consumer
+  registry:
+    address: zookeeper://124.221.218.66:2181
+  consumer:
+    timeout: 10000

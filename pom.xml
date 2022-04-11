@@ -21,6 +21,7 @@
         <module>spring-dubbo-api</module>
         <module>spring-consumer</module>
         <module>spring-producter</module>
+        <module>spring-kafka</module>
     </modules>
 
     <properties>
